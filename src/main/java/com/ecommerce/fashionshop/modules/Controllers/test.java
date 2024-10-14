@@ -10,7 +10,7 @@ public class test {
 
     @GetMapping("/test")
     public String testRota() {
-        return "Ola mundo !!!";
+        return "Ola pessoas !!!";
     }
     
 }
