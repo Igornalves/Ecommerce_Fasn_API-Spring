@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-@SpringBootApplication(exclude = { SecurityAutoConfiguration.class })
+@SpringBootApplication
 @OpenAPIDefinition(info = @Info(title = "Ecommerce para Loja de Roupa", description = "API responsavel por vendas e compras de produtos", version = "1.0"))
 @Configuration
 public class FashionshopApplication {
